@@ -6,5 +6,4 @@
 
 [คลิกเพื่อดูรายละเอียดของแลป](https://o365cmu-my.sharepoint.com/:b:/g/personal/chayanin_s_cmu_ac_th1/Ea0LeRxESQhFiGTZ4j5p0y0BhZHQ2h_dICj7xA9_t1NPzQ?e=sUkdBA)
 
-<strong>GITHUB PAGE URL :  https://cpe207.github.io/lab02-ApichayaUWU/</strong>
-(Link สำรองในกรณีที่deploy github pageมีปัญหาแล้วไม่สามารถตรวจงานได้ : http://127.0.0.1:3000/index.html)
+<strong>GITHUB PAGE URL : https://cpe207.github.io/lab02-ApichayaUWU/</strong>
