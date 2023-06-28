@@ -3,33 +3,115 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link href="style.css" rel="stylesheet" />
     <title>My Portfolio</title>
   </head>
   <body>
-    <h1 style="text-align: center">Experience</h1>
-    <p style="text-align: center">
-      <a href="index.html"> Home</a>
-      <a href="contact.html"> Contact</a>
-      <a href="exp.html"> Experience </a>
-    </p>
-    <center>
-      <img src="images/snowaus.jpeg" width="300" />
-      <p>
-        I've seen snow in Aus once and this is the most coolest experience in my
-        life. 👍
-      </p>
-      <img src="images/scratch.png" width="300" />
-      <p>
-        My scratch game project in 261103(this is weird but link's here :
-        <a href="https://scratch.mit.edu/projects/734580709">
-          https://scratch.mit.edu/projects/734580709</a
-        >) 👍
-      </p>
-      <img src="images/hobby.png" width="300" />
-      <p>
-        My hobby is listening to my favorite band/artist. (one ok rock ,
-        yorushika , official HIGE dandism etc.) 👍
-      </p>
-    </center>
+    <!-- HEAD STRIP NAVIGATIONBAR -->
+    <!-- ********************************* -->
+    <div
+      class="d-flex gap-0 align-items-center p-1 px-4 text-white shadow"
+      style="background-color: #0000ff"
+    >
+      <h2 style="margin: 1.5px">Portfolio.</h2>
+      <h5 class="ms-auto" style="margin-top: auto">experience</h5>
+      <!-- ----Drop down---- -->
+      <div class="dropdown">
+        <button
+          class="btn"
+          type="button"
+          id="dropdownMenuButton1"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-menu-2"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="3"
+            stroke="white"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M4 6l16 0"></path>
+            <path d="M4 12l16 0"></path>
+            <path d="M4 18l16 0"></path>
+          </svg>
+        </button>
+        <ul
+          class="dropdown-menu"
+          aria-labelledby="dropdownMenuLink"
+          style="background-color: #0000ff"
+        >
+          <li>
+            <a class="dropdown-item text-white fw-bold" href="index.html"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item text-white fw-bold" href="gallery.html"
+              >Gallery</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item text-white fw-bold" href="exp.html"
+              >Experience</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item text-white fw-bold" href="contact.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- ---------- -->
+    </div>
+    <!-- ********************************* -->
+
+    <div class="card">
+      <img class="card-img" src="images/snowaus.jpeg" alt="Card image" />
+      <div class="card-img-overlay">
+        <h5 class="card-title" style="color: #000000; max-width: 500px">
+          I've seen snow in Aus once and this is the most coolest experience in
+          my life. 👍
+        </h5>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img" src="images/scratch.png" alt="Card image" />
+      <div class="card-img-overlay">
+        <h5 class="card-title" style="color: #000000; max-width: 500px">
+          My scratch game project in 261103(this is weird but link's here :
+          <a href="https://scratch.mit.edu/projects/734580709">
+            https://scratch.mit.edu/projects/734580709</a
+          >) 👍
+        </h5>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img" src="images/hobby.png" alt="Card image" />
+      <div class="card-img-overlay">
+        <h5 class="card-title" style="color: #000000; max-width: 500px">
+          My hobby is listening to my favorite band/artist. (one ok rock ,
+          yorushika , official HIGE dandism etc.) 👍
+        </h5>
+      </div>
+    </div>
   </body>
 </html>
